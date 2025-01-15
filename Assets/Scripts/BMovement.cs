@@ -7,6 +7,7 @@ public class BMovement : MonoBehaviour
     public GameObject target;
     public float speed = 25f;
     public float moveDuration = 2.5f;
+    public bool playerHit = false;
 
     private Vector2 moveDirection;
 
@@ -33,6 +34,9 @@ public class BMovement : MonoBehaviour
                 elapsedTime += Time.deltaTime;
 
                 yield return null;
+                if(playerHit == true){
+
+                }
 
             }
             yield return new WaitForSeconds(0.1f);
