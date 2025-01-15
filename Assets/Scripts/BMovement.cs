@@ -5,23 +5,39 @@ using UnityEngine;
 public class BMovement : MonoBehaviour
 {
     public GameObject target;
-    public float speed = 10f;
-    public float waitTime = 3.5f;
+    public float speed = 25f;
+    public float moveDuration = 2.5f;
 
-    private Vector2 targetPosition;
-    private bool isMoving = true;
+    private Vector2 moveDirection;
 
-    void Update()
+    void Start()
     {
-        targetPosition = target.transform.position;
-        MoveTowardsTarget();
-
-
+        StartCoroutine(MoveTowardsTarget());
     }
 
-    private void MoveTowardsTarget()
+  
+    private IEnumerator MoveTowardsTarget()
     {
-        transform.position = Vector2.MoveTowards(transform.position, targetPosition, speed * Time.deltaTime);
+        while (true)
+        {
+            Vector2 targetPosition = target.transform.position;
+
+            moveDirection = (targetPosition - (Vector2)transform.position).normalized;
+
+
+            float elapsedTime = 0f; // move towards target for this set duration
+
+            while (elapsedTime < moveDuration)
+            {
+                transform.position += (Vector3)(moveDirection * speed * Time.deltaTime);
+                elapsedTime += Time.deltaTime;
+
+                yield return null;
+
+            }
+            yield return new WaitForSeconds(0.1f);
+
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
