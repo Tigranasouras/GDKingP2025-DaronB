@@ -9,7 +9,7 @@ public class Movement : MonoBehaviour
     public Rigidbody2D body;
     public float speed;
 
-    public float dodgeDistance = 2.0f; // How far player dodges
+    public float dodgeDistance = 3.0f; // How far player dodges
     public float doubleTapTime = 0.3f; // Time allowed between taps
     private float lastTapTime = -1; // Tracks when the shift was last tapped
 

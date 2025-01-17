@@ -5,9 +5,11 @@ using UnityEngine;
 public class BMovement : MonoBehaviour
 {
     public GameObject target;
+    public GameObject slider;
     public float speed = 25f;
     public float moveDuration = 2.5f;
     public bool playerHit = false;
+    public int damage = 25;
 
     private Vector2 moveDirection;
 
@@ -44,10 +46,13 @@ public class BMovement : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player")) {
             Debug.Log("Player Hit!");
+            
+            //references slider game object to give "player" damage
+           slider.GetComponentInChildren<PlayerHealth>().takeDamage(damage);
         }
 
     }
