@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -37,6 +38,12 @@ public class PlayerHealth : MonoBehaviour
             if(healthSlider.value != health){
                 healthSlider.value = health;
             }
+
+            if(health  == 0 ){
+                Die();
+            }
+
+
         }
 
 
