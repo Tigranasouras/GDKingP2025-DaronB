@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BMovement : MonoBehaviour
 {
-    public GameObject target;
-    public GameObject slider;
+    public GameObject target; //Make this find it when initialized
+    public GameObject slider; //Make this find it when initialized
     public float speed = 25f;
     public float moveDuration = 2.5f;
     public bool playerHit = false;
