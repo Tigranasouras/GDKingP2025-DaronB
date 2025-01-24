@@ -161,7 +161,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ca4708b36373d744aab53e1582bf8673, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  target: {fileID: 0}
+  target: {fileID: 634010730610418906, guid: 6e0b71735322e0f4f8712ae974705922, type: 3}
   slider: {fileID: 0}
   speed: 25
   moveDuration: 2.5

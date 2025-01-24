@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class BMovement : MonoBehaviour
 {
-    public GameObject target; //Make this find it when initialized
-    public GameObject slider; //Make this find it when initialized
     public float speed = 25f;
     public float moveDuration = 2.5f;
     public bool playerHit = false;
@@ -23,7 +21,11 @@ public class BMovement : MonoBehaviour
     {
         while (true)
         {
-            Vector2 targetPosition = target.transform.position;
+            GameObject player = GameObject.FindWithTag("Player");
+
+
+
+            Vector2 targetPosition = player.transform.position;
 
             moveDirection = (targetPosition - (Vector2)transform.position).normalized;
 
@@ -50,7 +52,9 @@ public class BMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player")) {
             Debug.Log("Player Hit!");
-            
+
+             GameObject slider = GameObject.FindWithTag("healthSlider");
+
             //references slider game object to give "player" damage
            slider.GetComponentInChildren<PlayerHealth>().takeDamage(damage);
         }
