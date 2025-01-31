@@ -8,12 +8,16 @@ public class BMovement : MonoBehaviour
     public float moveDuration = 2.5f;
     public bool playerHit = false;
     public int damage = 25;
+    bool playerTouched;
 
     private Vector2 moveDirection;
-
+    private DodgesCalculator dodgesCalculator;
     void Start()
     {
         StartCoroutine(MoveTowardsTarget());
+            GameObject dodgesCalculator = GameObject.FindWithTag("DodgeScript");
+
+       // DodgesCalculator dodgesCalculator = FindObjectOfType<DodgesCalculator>();
     }
 
   
@@ -21,6 +25,8 @@ public class BMovement : MonoBehaviour
     {
         while (true)
         {
+            playerTouched = false;
+
             GameObject player = GameObject.FindWithTag("Player");
 
 
@@ -39,11 +45,21 @@ public class BMovement : MonoBehaviour
 
                 yield return null;
                 if(playerHit == true){
+                    Debug.Log("This doesn't work.");
+                    //This is where the logic for updating the dodge counter goes
 
                 }
 
             }
             yield return new WaitForSeconds(0.1f);
+
+            if(playerTouched != false)
+            {
+                
+            }else{
+                player.GetComponentInChildren<PlayerOverhead>().Dodged();
+
+            }
 
         }
     }
@@ -57,7 +73,14 @@ public class BMovement : MonoBehaviour
 
             //references slider game object to give "player" damage
            slider.GetComponentInChildren<PlayerHealth>().takeDamage(damage);
+    
+            GameObject player = GameObject.FindWithTag("Player");
+            playerTouched = true;
+
+
         }
 
     }
+
+
 }

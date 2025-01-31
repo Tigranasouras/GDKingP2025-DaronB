@@ -8,7 +8,7 @@ using Random = UnityEngine.Random;
 public class BallSpawner : MonoBehaviour
 {
     public GameObject ballPrefab;
-    private float ballInterval = 2.5f;
+    private float ballInterval = 4.5f;
 
 
 

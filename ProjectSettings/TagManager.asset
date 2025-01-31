@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - healthSlider
+  - DodgeScript
   layers:
   - Default
   - TransparentFX

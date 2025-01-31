@@ -30,7 +30,7 @@ public class PlayerHealth : MonoBehaviour
     }
 
     private void Die(){
-        Debug.Log("I have died");
+        //Debug.Log("I have died");
         //Destroy(gameObject);
     }
 
