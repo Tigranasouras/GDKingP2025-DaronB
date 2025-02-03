@@ -17,7 +17,6 @@ public class BMovement : MonoBehaviour
         StartCoroutine(MoveTowardsTarget());
             GameObject dodgesCalculator = GameObject.FindWithTag("DodgeScript");
 
-       // DodgesCalculator dodgesCalculator = FindObjectOfType<DodgesCalculator>();
     }
 
   
@@ -45,8 +44,6 @@ public class BMovement : MonoBehaviour
 
                 yield return null;
                 if(playerHit == true){
-                    Debug.Log("This doesn't work.");
-                    //This is where the logic for updating the dodge counter goes
 
                 }
 
@@ -55,7 +52,7 @@ public class BMovement : MonoBehaviour
 
             if(playerTouched != false)
             {
-                
+
             }else{
                 player.GetComponentInChildren<PlayerOverhead>().Dodged();
 
