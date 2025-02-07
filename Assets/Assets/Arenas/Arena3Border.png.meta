@@ -53,7 +53,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -95,18 +95,513 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Arena3Border_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 774
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 123.75, y: 80}
+        - {x: 22.25, y: 84}
+        - {x: -43.75, y: 41}
+        - {x: -60.75, y: -22}
+        - {x: -59.75, y: -129}
+        - {x: -121.75, y: -129}
+        - {x: -120.75, y: -2}
+        - {x: -105.75, y: 51}
+        - {x: -70.75, y: 95}
+        - {x: 3.25, y: 126}
+        - {x: 123.75, y: 129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c78a414b77c408449f64b1063673ed3
+      internalID: -1377521132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_1
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 774
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -122.75, y: 77}
+        - {x: -121.75, y: 129}
+        - {x: 123.25, y: 129}
+        - {x: 123.75, y: 73}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1be004e361ad2f4893c1c4daeeb3154
+      internalID: -1600386938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_2
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 774
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -123.75, y: 74}
+        - {x: -123.75, y: 129}
+        - {x: 123.75, y: 129}
+        - {x: 123.75, y: 79}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c2c064f78c06149a2a14ddfadf043d
+      internalID: -125160924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_3
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 774
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 85.25, y: -129}
+        - {x: 82.25, y: 1}
+        - {x: 57.25, y: 52}
+        - {x: -2.75, y: 81}
+        - {x: -123.75, y: 79}
+        - {x: -123.75, y: 129}
+        - {x: 21.25, y: 119}
+        - {x: 83.25, y: 82}
+        - {x: 119.25, y: 23}
+        - {x: 123.75, y: -129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd41bcb9559776d4a8b5c489cd391a8c
+      internalID: 227265058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 516
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -118.75, y: -129}
+        - {x: -116.75, y: 129}
+        - {x: -57.75, y: 129}
+        - {x: -58.75, y: -129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe25649c7271c1647907e710759205d7
+      internalID: 1570688016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_5
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 516
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 84.25, y: -129}
+        - {x: 83.25, y: 129}
+        - {x: 123.75, y: 129}
+        - {x: 123.75, y: -129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf985ac3ade0a741817c89fb03e7d59
+      internalID: -363243791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 258
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -123.75, y: -129}
+        - {x: -120.75, y: 129}
+        - {x: -58.75, y: 129}
+        - {x: -57.75, y: -127}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06b6321fb5cd2c64781707dd876a44f7
+      internalID: -89662112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_7
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 258
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 81.25, y: -129}
+        - {x: 84.25, y: 129}
+        - {x: 123.75, y: 129}
+        - {x: 123.75, y: -129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a990c7418a49e42a7125c6744ddc6e
+      internalID: 1951932838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -15.75, y: -120}
+        - {x: -90.75, y: -69}
+        - {x: -122.75, y: 14}
+        - {x: -123.75, y: 129}
+        - {x: -61.75, y: 129}
+        - {x: -57.75, y: 0}
+        - {x: -34.75, y: -42}
+        - {x: 8.25, y: -71}
+        - {x: 123.75, y: -71}
+        - {x: 123.75, y: -124}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f68a8d06bc6982b40bea9fdf5aae68b2
+      internalID: 2059212733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_9
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 0
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -122.75, y: -124}
+        - {x: -123.75, y: -69}
+        - {x: 123.75, y: -69}
+        - {x: 123.75, y: -125}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ebe17a5e424b640a67db93373c3310
+      internalID: 1837707440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_10
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 0
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -123.75, y: -129}
+        - {x: -123.75, y: -69}
+        - {x: 123.75, y: -68}
+        - {x: 123.75, y: -129}
+      tessellationDetail: 0
+      bones: []
+      spriteID: fccb7049bdb0f72418a7f439bc58fc5a
+      internalID: 1773481070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Arena3Border_11
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 0
+        width: 247.5
+        height: 258
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 34.25, y: -129}
+        - {x: -123.75, y: -129}
+        - {x: -123.75, y: -68}
+        - {x: 16.25, y: -69}
+        - {x: 50.25, y: -48}
+        - {x: 82.25, y: -8}
+        - {x: 82.25, y: 129}
+        - {x: 123.75, y: 129}
+        - {x: 123.75, y: -33}
+        - {x: 85.25, y: -102}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7bb42a404931724bb3dadc62994906a
+      internalID: 870908334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
-    physicsShape: []
+    physicsShape:
+    - - {x: -488, y: 516}
+      - {x: -495, y: 510}
+      - {x: -495, y: -462}
+      - {x: -487, y: -516}
+      - {x: 495, y: -516}
+      - {x: 495, y: 516}
+    - - {x: -100, y: -457}
+      - {x: -104, y: -453}
+      - {x: -352, y: -453}
+      - {x: -353, y: -452}
+      - {x: -362, y: -451}
+      - {x: -365, y: -449}
+      - {x: -370, y: -447}
+      - {x: -372, y: -447}
+      - {x: -379, y: -442}
+      - {x: -388, y: -436}
+      - {x: -396, y: -431}
+      - {x: -397, y: -431}
+      - {x: -408, y: -419}
+      - {x: -410, y: -415}
+      - {x: -415, y: -409}
+      - {x: -422, y: -396}
+      - {x: -422, y: -394}
+      - {x: -424, y: -391}
+      - {x: -425, y: -382}
+      - {x: -426, y: -381}
+      - {x: -426, y: -184}
+      - {x: -427, y: -183}
+      - {x: -427, y: 103}
+      - {x: -426, y: 104}
+      - {x: -426, y: 375}
+      - {x: -425, y: 376}
+      - {x: -424, y: 387}
+      - {x: -423, y: 388}
+      - {x: -422, y: 392}
+      - {x: -421, y: 399}
+      - {x: -419, y: 403}
+      - {x: -416, y: 411}
+      - {x: -416, y: 413}
+      - {x: -411, y: 422}
+      - {x: -405, y: 429}
+      - {x: -398, y: 437}
+      - {x: -395, y: 440}
+      - {x: -389, y: 443}
+      - {x: -379, y: 449}
+      - {x: -377, y: 451}
+      - {x: -364, y: 458}
+      - {x: -358, y: 459}
+      - {x: -347, y: 462}
+      - {x: -346, y: 463}
+      - {x: -334, y: 464}
+      - {x: -333, y: 465}
+      - {x: -286, y: 465}
+      - {x: -285, y: 464}
+      - {x: -235, y: 464}
+      - {x: -222, y: 476}
+      - {x: -219, y: 477}
+      - {x: -214, y: 480}
+      - {x: -209, y: 482}
+      - {x: -202, y: 483}
+      - {x: -190, y: 482}
+      - {x: -189, y: 481}
+      - {x: -181, y: 477}
+      - {x: -175, y: 471}
+      - {x: -173, y: 466}
+      - {x: -170, y: 464}
+      - {x: -105, y: 464}
+      - {x: -99, y: 468}
+      - {x: -89, y: 468}
+      - {x: -88, y: 467}
+      - {x: -77, y: 467}
+      - {x: -73, y: 464}
+      - {x: -70, y: 462}
+      - {x: -65, y: 458}
+      - {x: -56, y: 457}
+      - {x: 28, y: 457}
+      - {x: 29, y: 458}
+      - {x: 39, y: 457}
+      - {x: 40, y: 458}
+      - {x: 89, y: 458}
+      - {x: 96, y: 465}
+      - {x: 101, y: 468}
+      - {x: 117, y: 468}
+      - {x: 118, y: 467}
+      - {x: 123, y: 466}
+      - {x: 129, y: 464}
+      - {x: 184, y: 464}
+      - {x: 189, y: 468}
+      - {x: 191, y: 472}
+      - {x: 202, y: 482}
+      - {x: 210, y: 483}
+      - {x: 211, y: 484}
+      - {x: 221, y: 484}
+      - {x: 224, y: 482}
+      - {x: 226, y: 482}
+      - {x: 235, y: 477}
+      - {x: 249, y: 464}
+      - {x: 361, y: 464}
+      - {x: 362, y: 463}
+      - {x: 366, y: 462}
+      - {x: 375, y: 460}
+      - {x: 383, y: 459}
+      - {x: 410, y: 445}
+      - {x: 428, y: 428}
+      - {x: 430, y: 424}
+      - {x: 435, y: 419}
+      - {x: 436, y: 415}
+      - {x: 438, y: 410}
+      - {x: 440, y: 407}
+      - {x: 442, y: 399}
+      - {x: 445, y: 393}
+      - {x: 445, y: 389}
+      - {x: 446, y: 385}
+      - {x: 447, y: 379}
+      - {x: 448, y: 378}
+      - {x: 448, y: -64}
+      - {x: 447, y: -65}
+      - {x: 447, y: -359}
+      - {x: 446, y: -360}
+      - {x: 446, y: -390}
+      - {x: 445, y: -391}
+      - {x: 443, y: -396}
+      - {x: 439, y: -405}
+      - {x: 437, y: -410}
+      - {x: 432, y: -417}
+      - {x: 429, y: -421}
+      - {x: 429, y: -422}
+      - {x: 420, y: -431}
+      - {x: 419, y: -431}
+      - {x: 409, y: -438}
+      - {x: 406, y: -439}
+      - {x: 404, y: -441}
+      - {x: 393, y: -447}
+      - {x: 389, y: -443}
+      - {x: 387, y: -446}
+      - {x: 384, y: -447}
+      - {x: 379, y: -450}
+      - {x: 376, y: -451}
+      - {x: 371, y: -452}
+      - {x: 370, y: -453}
+      - {x: 347, y: -453}
+      - {x: 346, y: -454}
+      - {x: 224, y: -454}
+      - {x: 223, y: -453}
+      - {x: 127, y: -453}
+      - {x: 119, y: -459}
+      - {x: 117, y: -459}
+      - {x: 116, y: -460}
+      - {x: 103, y: -460}
+      - {x: 102, y: -459}
+      - {x: 97, y: -458}
+      - {x: 92, y: -453}
+      - {x: -71, y: -453}
+      - {x: -76, y: -458}
+      - {x: -80, y: -459}
+      - {x: -81, y: -460}
+      - {x: -95, y: -460}
+      - {x: -96, y: -459}
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Arena3Border_0: -1377521132
+      Arena3Border_1: -1600386938
+      Arena3Border_10: 1773481070
+      Arena3Border_11: 870908334
+      Arena3Border_2: -125160924
+      Arena3Border_3: 227265058
+      Arena3Border_4: 1570688016
+      Arena3Border_5: -363243791
+      Arena3Border_6: -89662112
+      Arena3Border_7: 1951932838
+      Arena3Border_8: 2059212733
+      Arena3Border_9: 1837707440
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

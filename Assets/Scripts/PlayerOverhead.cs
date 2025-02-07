@@ -21,6 +21,14 @@ public class PlayerOverhead : MonoBehaviour
     public void Dodged(){
         dodges++;
         Debug.Log("Dodged! Good job" + dodges);
+
     }
+
+    public void Die(){
+        Debug.Log("I have died");
+        Destroy(gameObject);
+        //initiate the playerdead Gui
+    }
+
 
 }

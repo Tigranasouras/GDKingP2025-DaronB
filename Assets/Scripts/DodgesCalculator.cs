@@ -29,9 +29,11 @@ public TextMeshProUGUI startText;
     {
     GameObject player = GameObject.FindWithTag("Player");
 
+
+        //gets dodge from the PlayerOverhead script
         int dodge = player.GetComponentInChildren<PlayerOverhead>().dodges;
 
-        //Text @ start
+        //updates dodge.
         startText.text = "Dodges: " + dodge;
        
         

@@ -29,10 +29,7 @@ public class PlayerHealth : MonoBehaviour
         health = Mathf.Max(health + heal, 0);
     }
 
-    private void Die(){
-        //Debug.Log("I have died");
-        //Destroy(gameObject);
-    }
+    
 
         public void Update(){
             if(healthSlider.value != health){
@@ -40,7 +37,9 @@ public class PlayerHealth : MonoBehaviour
             }
 
             if(health  == 0 ){
-                Die();
+            GameObject player = GameObject.FindWithTag("Player");
+            player.GetComponentInChildren<PlayerOverhead>().Die();
+
             }
 
 

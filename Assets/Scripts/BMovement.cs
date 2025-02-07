@@ -27,7 +27,10 @@ public class BMovement : MonoBehaviour
             playerTouched = false;
 
             GameObject player = GameObject.FindWithTag("Player");
-
+            if(player == null){
+                Destroy(gameObject);
+                break;
+            }
 
 
             Vector2 targetPosition = player.transform.position;
@@ -64,7 +67,7 @@ public class BMovement : MonoBehaviour
      void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player")) {
-            Debug.Log("Player Hit!");
+           // Debug.Log("Player Hit!");
 
              GameObject slider = GameObject.FindWithTag("healthSlider");
 
