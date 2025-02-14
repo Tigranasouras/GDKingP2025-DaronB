@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class PlayerOverhead : MonoBehaviour
 
@@ -27,8 +29,11 @@ public class PlayerOverhead : MonoBehaviour
     public void Die(){
         Debug.Log("I have died");
         Destroy(gameObject);
+        goToEndGame();
         //initiate the playerdead Gui
     }
-
+ public void goToEndGame(){
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game Over");
+    }
 
 }

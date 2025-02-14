@@ -7,22 +7,22 @@ using UnityEngine.SceneManagement;
 public class MenuHandler : MonoBehaviour
 {
     public void goToMenu(){
-        SceneManager.LoadScene("Main Menu");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
     }
 
     public void goToCharacter(){
-        SceneManager.LoadScene("Character Selection");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Character Selection");
     }
 
     public void goToGame(){
-        SceneManager.LoadScene("Game");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
     }
 
     public void restartGameScene(){
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        UnityEngine.SceneManagement.SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void goToEndGame(){
-        SceneManager.LoadScene("End Game");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Game Over");
     }
 }
