@@ -6,8 +6,16 @@ using UnityEngine.SceneManagement;
 
 public class MenuHandler : MonoBehaviour
 {
+     public AudioSource source;
     public void goToMenu(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Main Menu");
+    }
+
+    private IEnumerator WaitForSoundAndTransition(string sceneName){
+
+            source.Play();
+            yield return new WaitForSeconds(source.clip.length);
+            UnityEngine.SceneManagement.SceneManager.LoadScene(sceneName);
     }
 
     public void goToCharacter(){
@@ -15,7 +23,7 @@ public class MenuHandler : MonoBehaviour
     }
 
     public void goToGame(){
-        UnityEngine.SceneManagement.SceneManager.LoadScene("Game");
+        StartCoroutine(WaitForSoundAndTransition("Game"));
     }
 
     public void restartGameScene(){
