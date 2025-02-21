@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 543491b3b1009204ca0aff5218302330, type: 3}
+  m_Name: PinsDB
+  m_EditorClassIdentifier: 
+  pins:
+  - name: OriginalPin
+    prefab: {fileID: 0}
+  - name: IlluminatiPin
+    prefab: {fileID: 0}
+  - name: CardinalPin
+    prefab: {fileID: 0}
+  - name: ChefPin
+    prefab: {fileID: 0}
+  - name: ChocoPin
+    prefab: {fileID: 0}
+  - name: CyberPin
+    prefab: {fileID: 0}
+  - name: DogPin
+    prefab: {fileID: 0}
+  - name: FrogPin
+    prefab: {fileID: 0}
