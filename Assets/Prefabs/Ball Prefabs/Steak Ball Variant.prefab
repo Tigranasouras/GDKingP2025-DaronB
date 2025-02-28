@@ -10,11 +10,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 676030234138268730, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 49.083374
+      value: 30.636894
       objectReference: {fileID: 0}
     - target: {fileID: 676030234138268730, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.505583
+      value: 3.8345153
       objectReference: {fileID: 0}
     - target: {fileID: 676030234138268730, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
       propertyPath: m_LocalPosition.z
@@ -52,6 +52,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 91a364dad2a854548b964c5bbc71d097, type: 3}
+    - target: {fileID: 6050633248993289300, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
+      propertyPath: m_Radius
+      value: 4.207737
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050633248993289300, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.049986843
+      objectReference: {fileID: 0}
+    - target: {fileID: 6050633248993289300, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.1714113
+      objectReference: {fileID: 0}
     - target: {fileID: 8840364158978248991, guid: 2de79a06e081fb649a1abaccac6d0fab, type: 3}
       propertyPath: m_Name
       value: Steak Ball Variant
