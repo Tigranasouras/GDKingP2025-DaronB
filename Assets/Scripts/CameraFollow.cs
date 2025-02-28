@@ -5,7 +5,22 @@ using UnityEngine;
 public class CameraFollow : MonoBehaviour
 {
     public float FollowSpeed = 2f;
-    public Transform target;
+    private Transform target;
+    
+
+
+    void Start()
+    {
+        GameObject player = GameObject.FindWithTag("Player");
+        if(player != null)
+        {
+            target = player.transform;
+        }
+        else
+        {
+            Debug.Log("Player not found, Bozo.");
+        }
+    }
 
     void Update()
     {
