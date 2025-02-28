@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PinBehavior : MonoBehaviour
+public class PinBehaviour : MonoBehaviour
 {
     public float speed = 10.0f;
     public Vector2 newPosition;
